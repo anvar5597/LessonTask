@@ -1,2 +1,9 @@
-package abstraction.task8;public class Spider {
+package abstraction.task8;
+
+public class Spider extends Animal {
+    public Spider() {
+    }
+    public void eat(){
+
+    }
 }

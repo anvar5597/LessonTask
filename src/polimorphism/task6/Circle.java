@@ -1,6 +1,6 @@
 package polimorphism.task6;
 
-public class Rectangle extends Figure{
+public class Circle extends Figure{
     private Double radius;
 
 

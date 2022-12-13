@@ -1,2 +1,4 @@
-package abstraction.task11;public class Hback {
+package abstraction.task11;
+
+public class Hback {
 }

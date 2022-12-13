@@ -1,2 +1,4 @@
-package abstraction.task11;public class Sedan {
+package abstraction.task11;
+
+public class Sedan {
 }

@@ -1,2 +1,4 @@
-package abstraction.task9;public class Employee {
+package abstraction.task9;
+
+public abstract class Employee implements TexablePayee{
 }

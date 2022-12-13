@@ -1,14 +1,14 @@
 package abstraction.task5;
 
-public class NaseballPlayer extends Player {
+public class BaseballPlayer extends Player {
     private Integer atBats;
     private Integer hits;
 
-    public NaseballPlayer() {
-        super();
+    public BaseballPlayer() {
+
     }
 
-    public NaseballPlayer(String sport, String team, String position, String firtname, String lastname, Integer atBats, Integer hits) {
+    public BaseballPlayer(String sport, String team, String position, String firtname, String lastname, Integer atBats, Integer hits) {
         super(sport, team, position, firtname, lastname);
         this.atBats = atBats;
         this.hits = hits;
@@ -29,5 +29,9 @@ public class NaseballPlayer extends Player {
     public void setHits(Integer hits) {
         this.hits = hits;
     }
+    public Double battingAvarage(){
+        return 0.0;
+    }
+
 
 }

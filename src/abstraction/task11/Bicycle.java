@@ -1,2 +1,5 @@
-package abstraction.task11;public class Bicycle {
+package abstraction.task11;
+
+public class Bicycle {
+
 }

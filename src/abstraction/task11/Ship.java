@@ -1,2 +1,5 @@
-package abstraction.task11;public class Ship {
+package abstraction.task11;
+
+public class Ship {
+    private Boolean sail;
 }

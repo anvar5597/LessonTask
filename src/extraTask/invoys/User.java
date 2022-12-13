@@ -1,75 +1,45 @@
 package extraTask.invoys;
 
-public class Invoys {
+public class User {
     public static Long counterObj = 0L;
     private final Long id;
-    private String paidlyBy;
-    private  final String invoysNumber;
-    private Double cost;
-    private Boolean status;
+    private String name;
+    private String login;
+    private String pasword;
 
-
-    public Invoys( String paidlyBy, String invoysNumber, Double cost, Boolean status) {
+    public User( String name , String login, String pasword) {
         counterObj++;
         this.id = counterObj;
-        this.paidlyBy = paidlyBy;
-        this.invoysNumber = invoysNumber;
-        this.cost = cost;
-        this.status = status;
-    }
-
-    public static Long getCounterObj() {
-        return counterObj;
-    }
-
-    public static void setCounterObj(Long counterObj) {
-        Invoys.counterObj = counterObj;
+        this.name = name;
+        this.login = login;
+        this.pasword = pasword;
     }
 
     public Long getId() {
         return id;
     }
 
-    public String getPaidlyBy() {
-        return paidlyBy;
+    public String getName() {
+        return name;
     }
 
-    public void setPaidlyBy(String paidlyBy) {
-        this.paidlyBy = paidlyBy;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getInvoysNumber() {
-        return invoysNumber;
+    public String getLogin() {
+        return login;
     }
 
-    public Double getCost() {
-        return cost;
+    public void setLogin(String login) {
+        this.login = login;
     }
 
-    public void setCost(Double cost) {
-        this.cost = cost;
+    public String getPasword() {
+        return pasword;
     }
 
-    public Boolean getStatus() {
-        return status;
-    }
-
-    public void setStatus(Boolean status) {
-        this.status = status;
-    }
-
-
-
-
-
-    @Override
-    public String toString() {
-        return "Invoys{" +
-                "id=" + id +
-                ", paidlyBy='" + paidlyBy + '\'' +
-                ", invoysNumber='" + invoysNumber + '\'' +
-                ", cost=" + cost +
-                ", status=" + status +
-                '}';
+    public void setPasword(String pasword) {
+        this.pasword = pasword;
     }
 }

@@ -1,8 +1,8 @@
-package polimorphism.yask4;
+package polimorphism.task4;
 
 public class RedheadDuck extends  Duck{
     @Override
     public void display() {
-        System.out.println("Red head");
+        System.out.println("Redhead  Duck");
     }
 }

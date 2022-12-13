@@ -1,21 +1,22 @@
 package email_app;
-import email_app.Model.Account;
+import email_app.Model.Email;
+import email_app.Model.User;
 
 import java.util.Scanner;
 
 public class EmailApplication {
 
 
-    public static Account[] account = new Account[1000];
+    //public static Account[] account = new Account[1000];
+    public static User[] users = new User[100];
     public static Scanner scanner;
-    public static Account currentAccount = null;
+    public static Email[] emails = new Email[1000];
+    public static User currentUser = null;
 
 
     public static void main(String[] args) {
-
-        account[0] = new Account("Anvar", "Olimov", "olimovanvar@gmail.com", "parol");
-        account[1] = new Account("User", "Userov", "email", "parol");
-        account[2] = new Account("User", "Userov", "1", "1");
+//        users[0] = new User("Anvar", "Olimov",25, "olimovanvar@gmail.com", "parol");
+//        users[1] = new User("User", "Userov", 20, "email", "parol");
 
         scanner = new Scanner(System.in);
         while (true) {
@@ -37,8 +38,6 @@ public class EmailApplication {
                 case 3:
                     showUserList();
                     break;
-                case 4:
-                    break;
                 case 0:
                     System.out.println("------- Thank you! --------");
                     return;
@@ -50,9 +49,9 @@ public class EmailApplication {
     }
 
     private static void showUserList() {
-        for (Account account1 : account) {
-            if (account1 != null) {
-                System.out.println(account1.toString());
+        for (User user : users) {
+            if (user != null) {
+                System.out.println(user);
             }
         }
     }
@@ -62,18 +61,20 @@ public class EmailApplication {
         String firstName = scanner.nextLine();
         System.out.print("Familiyangiz:  ");
         String lastName = scanner.next();
+        System.out.print("Yoshingiz: ");
+        int age = scanner.nextInt();
         System.out.print("Email:  ");
         String email = scanner.next();
         System.out.print("Parolingiz: ");
         String password = scanner.next();
         int cnt = 1;
-        for (Account account : account) {
+        for (User user : users) {
             cnt++;
-            if (account == null) {
+            if (user == null) {
                 break;
             }
         }
-        account[cnt] = new Account(firstName, lastName, email, password);
+        users[cnt] = new User(firstName, lastName,age, email, password);
     }
 
     private static void login() {
@@ -93,9 +94,9 @@ public class EmailApplication {
     }
 
     private static void initCurrentAccount(String email) {
-        for (Account account : account) {
-            if (account != null && account.getEmail().equals(email)) {
-                currentAccount = account;
+        for (User user : users) {
+            if (user != null && user.getEmail().equals(email)) {
+                currentUser = user;
                 break;
             }
         }
@@ -103,9 +104,9 @@ public class EmailApplication {
 
 
     private static boolean chekEmail(String email, String password) {
-        for (Account account : account) {
-            if (account != null) {
-                if (account.getEmail().equals(email) && account.getPassword().equals(password)) {
+        for (User user : users) {
+            if (user != null) {
+                if (user.getEmail().equals(email) && user.getPassword().equals(password)) {
                     return true;
                 }
             }
@@ -116,9 +117,8 @@ public class EmailApplication {
 
     private static void showDashboard() {
 
-        dashboard:
-        System.out.println("\n\t" + currentAccount.getFirstName()
-                + " " + currentAccount.getLastName() + "\t\t" + currentAccount.getEmail());
+        System.out.println("\n\t" + currentUser.getFirstname()
+                + " " + currentUser.getLastname() + "\t\t" + currentUser.getEmail());
         System.out.println("1.New Message");
         System.out.println("2.Unread");
         System.out.println("3.Inbox");
@@ -133,11 +133,13 @@ public class EmailApplication {
                 newMessage();
                 break;
             case 2:
+                unreadMessage();
                 break;
             case 3:
                 inboxMessage();
                 break;
             case 4:
+                outBox();
                 break;
             case 5:
                 changePassword();
@@ -150,60 +152,99 @@ public class EmailApplication {
         }
     }
 
-    private static void inboxMessage() {
-        for (Account account : account) {
-            if (account != null && account.getEmail().equals(currentAccount.getEmail())) {
-                for (account.getInbox()) ;
-
+    private static void outBox() {
+        int countOutbox = 0;
+        for (Email email : emails) {
+            if (email !=null && email.getSender() == currentUser ) {
+//                for (account.getInbox()) ;
+                System.out.println("---------------------------------------------");
+                System.out.println(++countOutbox + "-xabar");
+                System.out.println("\nXabar sarlavhasini:    " + email.getTitle());
+                System.out.println("Xabar matni:    " + email.getBody());
+                email.setStatus(true);
             }
         }
         showDashboard();
     }
 
+    private static void unreadMessage() {
+        int countInbox = 0;
+        for (Email email : emails) {
+            if (email !=null && email.getReceiver() == currentUser && !email.getStatus()) {
+//                for (account.getInbox()) ;
+                System.out.println("---------------------------------------------");
+                System.out.println(++countInbox + "-xabar");
+                System.out.println("\nXabar sarlavhasini:    " + email.getTitle());
+                System.out.println("Xabar matni:    " + email.getBody());
+                email.setStatus(true);
+            }
+        }
+        showDashboard();
+    }
+
+    private static void inboxMessage() {
+        int countInbox = 0;
+        for (Email email : emails) {
+            if (email !=null && email.getReceiver() == currentUser) {
+//                for (account.getInbox()) ;
+                System.out.println("---------------------------------------------");
+                System.out.println(++countInbox + "-xabar");
+                System.out.println("\nXabar sarlavhasini:    " + email.getTitle());
+                System.out.println("Xabar matni:    " + email.getBody());
+                email.setStatus(true);
+            }
+        }
+        showDashboard();
+    }
+    public static int countEmail = 0;
     private static void newMessage() {
         scanner = new Scanner(System.in);
-        for (Account account : account) {
-            if (account != null) {
-                System.out.println(account.getEmail());
+        for (User user : users) {
+            if (user != null) {
+                System.out.println(user.getEmail());
             }
         }
         System.out.print("To: ");
-        String receiver = scanner.next();
-        Account receiverAccount = null;
-        for (Account account : account) {
-            if (account != null) {
-                if (account.getEmail().equals(receiver)) {
-                    receiverAccount = account;
+        String receiverEmail = scanner.next();
+        User receiverAccount = null;
+        for (User user : users) {
+            if (user != null) {
+                if (user.getEmail().equals(receiverEmail)) {
+                    receiverAccount = user;
                     break;
                 }
             }
         }
         if (receiverAccount != null) {
+            scanner = new Scanner(System.in);
             System.out.println("Title: ");
-            scanner = new Scanner(System.in);
             String title = scanner.nextLine();
-
             System.out.println("Message: ");
-            scanner = new Scanner(System.in);
             String message = scanner.nextLine();
 
-
+            for(Email email : emails){
+                if (email != null) {
+                   countEmail++;
+                   break;
+                }
+            }
+            emails[countEmail] = new Email(title,message,currentUser,receiverAccount,false);
             showDashboard();
         }
 
     }
 
     private static void logOut() {
-        currentAccount = null;
+        currentUser = null;
     }
 
     private static void changePassword() {
         System.out.print("Eski parolni Kiriting: ");
         String oldPassword = scanner.next();
-        if (currentAccount.getPassword().equals(oldPassword)) {
+        if (currentUser.getPassword().equals(oldPassword)) {
             System.out.print("Yangi parolni kiriting:  ");
             String newPassword = scanner.next();
-            currentAccount.setPassword(newPassword);
+            currentUser.setPassword(newPassword);
             showDashboard();
         }
     }

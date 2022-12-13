@@ -1,2 +1,4 @@
-package abstraction.task10;public class Dog {
+package abstraction.task10;
+
+public class Dog extends Animal{
 }

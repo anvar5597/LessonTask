@@ -1,5 +1,5 @@
 package functionalInterface;
 @FunctionalInterface
-public interface DetermineSign {
+public interface DetermineSignTask1 {
      String Sign(int a);
 }
