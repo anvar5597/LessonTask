@@ -4,162 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddf64907-443d-4499-96ad-acf4abdff2f3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/booleanTask/Bolean1.java" afterDir="false" />
+    <list default="true" id="ddf64907-443d-4499-96ad-acf4abdff2f3" name="Changes" comment="yangi">
+      <change afterPath="$PROJECT_DIR$/src/arrayList/ArrayDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/Circle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Boolean/Bolean1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casting/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casting/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casting/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casting/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Casting/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ForWhile/For9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/forWhile/For9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Massiv/Massiv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/massiv/Massiv1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Massiv/Massiv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/massiv/Massiv2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Massiv/Massiv3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/massiv/Massiv3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Massiv/Massiv4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/massiv/Massiv4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Massiv/Massiv5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/massiv/Massiv5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Massiv/Masssiv1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/massiv/Masssiv1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Date.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Date.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/MyClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/PointUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/PointUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RekursivDaraja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RekursivDaraja.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String10.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String11.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String12.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String13.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String14.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/String9.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Typing/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/typing/Task1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Typing/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/typing/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Typing/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/typing/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Typing/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/typing/Task4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Typing/Task5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/typing/Task5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task1/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task1/Rectengle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task1/Rectengle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task1/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task1/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Auto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Auto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Electronics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Flying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Flying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/RemoteControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/TV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task10/Tech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task10/Tech.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task11/Aotu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task11/Aotu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task11/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task11/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task11/Hback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task11/Hback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task11/Sedan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task11/Sedan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task11/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task11/Ship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task11/Velhicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task11/Velhicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task11/WheeleVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task11/WheeleVehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task12/CrickedData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task12/CrickedData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task12/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task12/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task2/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task2/Aircraft.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task2/FighterPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task2/FighterPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task2/PassagerPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task2/PassagerPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task2/PropellerPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task2/PropellerPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task3/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task3/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task3/CheckingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task3/CheckingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task3/SavingAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task3/SavingAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task4/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task4/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task4/HoutlyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task4/HoutlyEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task4/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task4/Office.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task4/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task4/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task4/SalariedEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task5/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task5/BaseballPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task5/Goaline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task5/Goaline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task5/Pitcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task5/Pitcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task5/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task5/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task5/SoccerPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task5/SoccerPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task6/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task6/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task6/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task6/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task6/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task6/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task7/Bar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task7/Bar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task7/Fizz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task7/Fizz.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task7/Foo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task7/Foo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task8/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task8/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task8/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task8/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task8/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task8/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task8/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task8/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task8/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task8/Spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task9/CommissionEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task9/CommissionEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task9/ContractyCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task9/ContractyCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task9/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task9/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task9/Payee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task9/Payee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task9/SalaryEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task9/SalaryEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstraction/task9/TexablePayee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstraction/task9/TexablePayee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/email_app/EmailApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/email_app/EmailApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/email_app/Model/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/email_app/Model/Email.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/email_app/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/email_app/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraTask/contact/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraTask/contact/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraTask/contact/ContactDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraTask/contact/ContactDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraTask/contact/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraTask/contact/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraTask/invoys/Invoys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraTask/invoys/Invoys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraTask/invoys/InvoysDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraTask/invoys/InvoysDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extraTask/invoys/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/extraTask/invoys/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/AddMassivElementsTask4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/AddMassivElementsTask4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/AddOddNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/AddOddNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/AddPositivaNubmers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/AddPositivaNubmers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/AddPrimeNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/AddPrimeNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/DetermineNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/DetermineNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/DetermineSignTask1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/DetermineSignTask1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/InerfaceDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/InerfaceDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/MassivMaxTask3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/MassivMaxTask3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/MaxTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/MaxTask2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/S1ContainsS2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/S1ContainsS2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionalInterface/VoweoCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionalInterface/VoweoCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task1/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task1/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task1/Fugure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task1/Fugure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task1/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task1/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task2/Task2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task2/Task2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task3/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task3/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task4/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task4/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task4/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task4/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task4/RedheadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task4/RedheadDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task5/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task5/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task5/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task5/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task5/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task5/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task5/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task5/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task6/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task6/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task6/Figure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task6/Figure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task6/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task6/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polimorphism/task6/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polimorphism/task6/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,13 +53,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.String9">
-    <configuration name="ContactDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extraTask.contact.ContactDemo" />
+  <component name="RunManager" selected="Application.ArrayDemo">
+    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayList.ArrayDemo" />
       <module name="String" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extraTask.contact.*" />
+          <option name="PATTERN" value="arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="email_app.EmailApplication" />
+    <configuration name="ContactDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extraTask.contact.ContactDemo" />
       <module name="String" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="email_app.*" />
+          <option name="PATTERN" value="extraTask.contact.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayDemo" />
         <item itemvalue="Application.String9" />
         <item itemvalue="Application.ContactDemo" />
         <item itemvalue="Application.InerfaceDemo" />
         <item itemvalue="Application.InvoysDemo" />
-        <item itemvalue="Application.EmailApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -289,6 +138,14 @@
       <option name="presentableId" value="Default" />
       <updated>1665209287759</updated>
     </task>
+    <task id="LOCAL-00001" summary="yangi">
+      <created>1670914388212</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670914388212</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -304,5 +161,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="yangi" />
+    <option name="LAST_COMMIT_MESSAGE" value="yangi" />
   </component>
 </project>
