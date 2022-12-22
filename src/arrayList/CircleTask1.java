@@ -1,9 +1,9 @@
 package arrayList;
 
-public class Circle {
+public class CircleTask1 {
     private Double radius;
 
-    public Circle(Double radius) {
+    public CircleTask1(Double radius) {
         this.radius = radius;
     }
 

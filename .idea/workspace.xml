@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddf64907-443d-4499-96ad-acf4abdff2f3" name="Changes" comment="yangi">
-      <change afterPath="$PROJECT_DIR$/src/arrayList/ArrayDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/arrayList/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/arrayList/Name.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayList/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayList/ArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayList/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayList/CarTask3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayList/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayList/CircleTask1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,20 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b541a3e2-b3cf-4637-9bc3-0e693f59c88e" />
+        <option name="url" value="https://github.com/anvar5597/LessonTasks.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/openjdk-16.0.1/lib/src.zip!/java.base/java/lang/Double.java" root0="SKIP_INSPECTION" />
@@ -43,16 +57,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anvar/Desktop/email_app&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Anvar/IdeaProjects/String",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.ArrayDemo">
     <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayList.ArrayDemo" />
@@ -145,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670914388212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="yangi">
+      <created>1671689840922</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671689840922</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,11 +1,11 @@
 package arrayList;
 
-public class Car {
+public class CarTask3 {
     private String color;
     private String model;
     private String carnumber;
 
-    public Car(String color, String model, String carnumber) {
+    public CarTask3(String color, String model, String carnumber) {
         this.color = color;
         this.model = model;
         this.carnumber = carnumber;
